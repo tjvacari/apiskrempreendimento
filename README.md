@@ -3,7 +3,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  API Rest utilizando Spring Boot com Jersey 
+  API Rest utilizando Spring Boot com Jersey para listagem de empreendimentos com filtros por categoria e tipo.
 </p>
 
 ## Funcionalidades
@@ -36,6 +36,8 @@ Na raiz do projeto executar:
 
 ## Casos de Uso
 
+### Empreendimento: 
+
 Request exemplo:
 http://localhost:8080/skr/empreendimento/empreendimento?page=0&max=1&idsCategoria=1&idsTipo=1
 
@@ -49,18 +51,16 @@ idsTipo = Lista de ids tipo para aplicar o filtro por tipo
 
 ## JSON :floppy_disk:
 
-### Empreendimento: 
-
 |id|descricao|nome|urlImagem|
 | -------- |-------- |-------- |-------- |
 |5||55 : Beacon é um ..|55 : BEACON|https://skr.com.br/public/uploads/9cfe133c7cb0a7d442ce7857bf8050e6.jpg|
+
+### Filtros: 
 
 Request exemplo:
 http://localhost:8080/skr/empreendimento/filtro
 
 ## JSON :floppy_disk:
-
-### Filtros: 
 
 |id|descricao|tipo|
 | -------- | -------- |-------- |
@@ -82,9 +82,12 @@ Criando banco de dados:
 
 Método 1:
 Criar nova base no banco PostgreSql com o nome "empreendimento"
-Restaurar o backup no banco
+
+Restaurar o backup no banco (backup encontrado na pasta database)
 
 Método 2:
 Criar nova base no banco PostgreSql com o nome "empreendimento"
+
 Iniciar o a API Rest (neste momento as tabelas e colunas serão criadas no banco)
-Executar o script com os inserts
+
+Executar o scripts (encontrado na pasta database) com os inserts
