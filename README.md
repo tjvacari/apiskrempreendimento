@@ -25,7 +25,7 @@ Adicionar nas variáveis do sistema.
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
+git clone https://github.com/tjvacari/apiskrempreendimento.git
 ```
 
 Na raiz do projeto executar:
@@ -40,8 +40,11 @@ Request exemplo:
 http://localhost:8080/skr/empreendimento/empreendimento?page=0&max=1&idsCategoria=1&idsTipo=1
 
 page = página selecionada (iniciando em 0)
+
 max = número máximo de registros por página
+
 idsCategoria = Lista de ids decategorias para aplicar o filtro por categoria
+
 idsTipo = Lista de ids tipo para aplicar o filtro por tipo
 
 ## JSON :floppy_disk:
@@ -60,11 +63,11 @@ http://localhost:8080/skr/empreendimento/filtro
 ### Filtros: 
 
 |id|descricao|tipo|
-| -------- |-------- |-------- |-------- |
-|1||Lançamentos|categoria|
-|1||Residencial|tipo|
-|2||Entregues|categoria|
-|2||Comercial|tipo|
+| -------- | -------- |-------- |
+|1|Lançamentos|categoria|
+|1|Residencial|tipo|
+|2|Entregues|categoria|
+|2|Comercial|tipo|
 
 Os ids podem se repetir, pois temos a separação por tipo: "categoria" ou "tipo"
 
