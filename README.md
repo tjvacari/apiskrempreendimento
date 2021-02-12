@@ -53,7 +53,7 @@ idsTipo = Lista de ids tipo para aplicar o filtro por tipo
 
 |id|descricao|nome|urlImagem|
 | -------- |-------- |-------- |-------- |
-|5||55 : Beacon é um ..|55 : BEACON|https://skr.com.br/public/uploads/9cfe133c7cb0a7d442ce7857bf8050e6.jpg|
+|5|55 : Beacon é um ..|55 : BEACON|https://skr.com.br/public/uploads/9cfe133c7cb0a7d442ce7857bf8050e6.jpg|
 
 ### Filtros: 
 
